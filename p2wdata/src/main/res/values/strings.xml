@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">p2wdata</string>
     <string name="reference">https://pay2who.firebaseio.com/</string>
+    <string name="localbase">p2wdb</string>
 </resources>

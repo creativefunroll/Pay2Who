@@ -13,6 +13,8 @@ public class ResourceHelper {
         return getResource(R.string.reference);
     }
 
+    public static String getLocalbase() { return getResource(R.string.localbase); }
+
     private static String getResource(int r) {
         return  Resources.getSystem().getString(r);
     }

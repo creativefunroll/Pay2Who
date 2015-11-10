@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Pay2Who-Mobileapp.iml" filepath="$PROJECT_DIR$/Pay2Who-Mobileapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
       <module fileurl="file://$PROJECT_DIR$/p2wapp/p2wapp.iml" filepath="$PROJECT_DIR$/p2wapp/p2wapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p2wbiz/p2wbiz.iml" filepath="$PROJECT_DIR$/p2wbiz/p2wbiz.iml" />
       <module fileurl="file://$PROJECT_DIR$/p2wdata/p2wdata.iml" filepath="$PROJECT_DIR$/p2wdata/p2wdata.iml" />
     </modules>
   </component>
