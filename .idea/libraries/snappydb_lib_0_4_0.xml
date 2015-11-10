@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="snappydb-lib-0.4.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/p2wapp/build/intermediates/exploded-aar/com.snappydb/snappydb-lib/0.4.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/p2wapp/build/intermediates/exploded-aar/com.snappydb/snappydb-lib/0.4.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.snappydb/snappydb-lib/0.4.0/d17c1013868a76afe55f465507838505f6c0a5b2/snappydb-lib-0.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -10,13 +10,15 @@ buildscript {
 }
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    compileSdkVersion 22
+    buildToolsVersion '22.0.1'
+
+
 
     defaultConfig {
         applicationId "com.pay2who.p2wapp"
         minSdkVersion 15
-        targetSdkVersion 23
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
     }
@@ -42,9 +44,10 @@ allprojects {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile project(':core')
-    compile project(':p2wdata')
-    compile 'com.android.support:appcompat-v7:23.1.0'
+    compile 'com.android.support:appcompat-v7:22.2.0'
+    compile 'com.android.support:design:22.2.0'
+    compile 'com.snappydb:snappydb-lib:0.4.0'
+    compile 'com.esotericsoftware.kryo:kryo:2.24.0'
     compile 'com.firebase:firebase-client-android:2.3.1'
-    compile 'com.android.support:design:23.1.0'
+    compile 'com.jakewharton:butterknife:6.1.0'
 }
