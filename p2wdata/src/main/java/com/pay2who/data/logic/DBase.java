@@ -14,8 +14,14 @@ public class DBase implements IServiceReference<Firebase> {
 
     private String url;
     private Firebase fb;
+    private static boolean persistDataCheckDone = false;
     protected DBase(String url) {
         this.url=url;
+
+        if(!persistDataCheckDone) {
+            Firebase.getDefaultConfig().setPersistenceEnabled(true);
+            persistDataCheckDone=true;
+        }
     }
 
     @Override

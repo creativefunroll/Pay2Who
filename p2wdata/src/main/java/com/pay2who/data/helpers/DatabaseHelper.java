@@ -28,6 +28,10 @@ public class DatabaseHelper extends Sources {
         return this.getLocalObject(type);
     }
 
+    public void insertLocally(Object obj) throws Exception {
+        this.getLocal().put(obj.getClass().getName(), obj);
+    }
+
     public  Message<String> tokenLogin(String token) {
         AuthenticationResult ar = new AuthenticationResult(source);
         source.getServiceConnection().authWithCustomToken(token, ar);

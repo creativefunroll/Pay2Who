@@ -14,6 +14,8 @@ public class SignupInfo extends LoginInfo {
 
     private String token;
 
+    private String lastLoginTime;
+
     public String getFirstname() {
         return firstname;
     }
@@ -47,5 +49,11 @@ public class SignupInfo extends LoginInfo {
         this.token = token;
     }
 
+    public String getLastLoginTime() {
+        return lastLoginTime;
+    }
 
+    public void setLastLoginTime(String lastLoginTime) {
+        this.lastLoginTime = lastLoginTime;
+    }
 }

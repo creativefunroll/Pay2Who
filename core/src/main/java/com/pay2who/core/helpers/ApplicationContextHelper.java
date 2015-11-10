@@ -7,14 +7,10 @@ import android.app.Activity;
 import android.content.Context;
 
 public class ApplicationContextHelper {
-    private static Activity gContext;
+    private static Context gContext;
 
-    public static void setContext( Activity activity) {
+    public static void setContext( Context activity) {
         gContext = activity;
-    }
-
-    public static Activity getActivity() {
-        return gContext;
     }
 
     public static Context getContext() {

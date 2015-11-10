@@ -2,6 +2,7 @@ package com.pay2who.data.helpers;
 
 import android.content.res.Resources;
 
+import com.pay2who.core.helpers.ResourceManager;
 import com.pay2who.p2wdata.R;
 
 /**
@@ -16,6 +17,6 @@ public class ResourceHelper {
     public static String getLocalbase() { return getResource(R.string.localbase); }
 
     private static String getResource(int r) {
-        return  Resources.getSystem().getString(r);
+        return ResourceManager.getResource(r);
     }
 }

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">p2wbiz</string>
+    <string name="no_internet">Please check your Internet Connection</string>
+    <string name="login_check_failed">Login Check Failed. Please login again</string>
 </resources>
